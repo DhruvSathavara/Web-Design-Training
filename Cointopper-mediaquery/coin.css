@@ -1,0 +1,1230 @@
+/* *{
+    padding: 0%;
+    margin: 0%;
+} */
+
+html{
+    width: fit-content;
+}
+body{
+    /* overflow-x: hidden; */
+    max-width: 94%;
+}
+
+.navlist{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    padding-top: 14px;
+}
+nav .logo img{
+    width: 188px;
+    margin-left: 48px;
+    margin-top: 7px;
+}
+.navlist li{
+    padding-left: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+/* nav i{
+    font-size: 120px;
+    cursor: pointer;
+    display: none;
+} */
+label{
+    display: none;
+}
+#open-menu{
+    display: none;
+}
+.nav2{
+    margin: auto;
+    margin-right: 100px;
+}
+.Hbtn{
+    padding: 10px 24px;
+    color: white;
+    background: linear-gradient(to right,#1c60b8 1%,#3c99dd 100%);
+    border-radius: 4px;
+    border: none;
+    margin-top: -10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.bgcolor{
+    background: linear-gradient(to right,#1c60b8 1%,#3c99dd 100%);
+    margin-left: -8px;
+    margin-top: 80px;
+    width: 101%;
+}
+.menu-btn{
+    width: fit-content;
+}
+.maindiv{
+    display: flex;
+    width: fit-content;
+}
+.maindiv h4{
+    padding-inline: 65px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    color: white;
+}
+/* .coindtl{
+    margin-left: 8%;
+} */
+.topview{
+    display: flex;
+    padding-top: 48px;
+    justify-content: center;
+}
+.top{
+    width: 71%;
+    color: #505050;
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.viewbtn{
+    background-color: #cdced5;
+    font-family: sans-serif;
+    border-style: none;
+    border-radius: 4px;
+    padding: 10px 13px;
+    color: white;
+
+}
+.c1mcap{
+    margin: -6px 0px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.coinicon{
+    width: 35px;
+}   
+       
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+.c1name{
+    margin: 0px;
+    padding: 11px
+}
+.c1mcap{
+    margin: 0px;
+    padding: 0px 0px 6px 10px}
+
+.c1up{
+    margin: 0%;
+    /* margin-left: 40px; */
+}
+.cards div{
+    margin-inline: 12px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 94px;
+}
+.card1 p .coinlogo{
+    height: 30px;
+}
+.card2 p .coinlogo{
+    height: 30px;
+}.card3 p .coinlogo{
+    height: 30px;
+}.card4 p .coinlogo{
+    height: 30px;
+}.card5 p .coinlogo{
+    height: 30px;
+}.card6 p .coinlogo{
+    height: 30px;
+}
+.cards .card1{width: 100%;}
+.cards .card2{width: 100%;}
+.cards .card3{width: 100%;}
+.cards .card4{width: 100%;}
+.cards .card5{width: 100%;}
+.cards .card6{width: 100%;}
+.card1 span img{
+    margin-right: 6px;
+    margin-top: -6px;
+    float: right;
+    border-radius: 50%;
+}
+.card2 span img{
+    float: right;
+    margin-right: 6px;
+    margin-top: -6px;
+}
+
+.card3 span img{
+    float: right;
+    margin-right: 6px;
+    margin-top: -6px;
+}
+
+.card4 span img{
+    float: right;
+    margin-right: 6px;
+    margin-top: -6px;
+}
+
+.card5 span img{
+    float: right;
+    margin-right: 6px;
+    margin-top: -6px;
+}
+.card6 span img{
+    float: right;
+    margin-right: 6px;
+    margin-top: -6px;
+}
+    .card1{
+        background: linear-gradient(to right,blue,lightblue);
+    }
+    .card2{
+        background: linear-gradient(to right,green,yellow);
+    }
+    .card3{
+       background: linear-gradient(to right,skyblue,brown);
+    }
+    .card4{
+       background: linear-gradient(to right,orange,lightblue);
+    }
+    .card5{
+       background: linear-gradient(to right,rgb(155, 97, 155),rgb(129, 75, 84));
+    }
+    .card6{
+       background: linear-gradient(to right,rgb(109, 97, 97),rgb(243, 243, 139));
+    }
+
+    .cryptsrch{display: flex;    
+justify-content: center;
+align-items: center;}
+.crypt{
+    width: 44%;
+    color: #505050;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: inherit;
+}
+.srchusd{
+    width: 12%;
+    margin-left: 24%;
+    margin-top: 40px;
+    padding-bottom: 12px;
+    
+}
+.usd{
+    background-color: #cdced5;
+    color: #fff;
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 4px;
+    border-style: none;
+    float: right;
+    margin-right: 30px;   
+}
+
+
+table{
+    width: 84%;
+    margin-left: 122px;
+ }
+ .upanddown{
+     width: 11px;
+ }
+
+ .tr1{
+    text-align: justify;
+ }
+ .srch{
+    background-color: #cdced5;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 4px;
+    border-style: none;   
+    padding: 5px;
+    margin-left: -140px;
+    padding-left: 40px;
+    width: 100%;
+}
+  p img .errow{
+    height: 11px;
+    /* margin-right: 6px; */
+  }
+  .prevandnxtbtn{
+      margin-left: 45%;
+      margin-top: 30px;
+  }
+  .prevbtn{
+    color: gray;
+    border: solid 2px;
+    border-radius: 10px;
+    padding: 12px;
+    background-color: white;
+    padding-inline: 15px;
+  }
+  .nxtbtn{
+    color: gray;
+    border: solid 2px;
+    border-radius: 10px;
+    padding: 12px;
+    background-color: white;
+    padding-inline: 15px;
+  }
+  
+  .newssection{
+    display: flex;
+    justify-content: center;
+  }
+  .news1{
+    width: 24%;
+    border: 2px solid #cdced5;
+    border-radius: 20px;
+    height: 450px;
+    margin-top: 25px;
+    margin-right: 25px;
+  }
+  .news2{
+    width: 24%;
+    border: 2px solid #cdced5;
+    border-radius: 20px;
+    height: 450px;
+    margin-top: 25px;
+  }
+  .news3{
+    width: 24%;
+    border: 2px solid #cdced5;
+    border-radius: 20px;
+    height: 450px;
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+
+  .newsimg1{
+      width: 291px;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+  }
+  a{
+    text-decoration: none;
+  }
+  .newsdate{
+    float: right;
+    padding: 0px 25px;
+  }
+  .newsttl1{
+    font-size: 22px;
+    font-weight: 600;
+    color: blue;
+    padding: 20px;
+  }
+  .newsttl2{
+    font-size: 22px;
+    font-weight: 600;
+    color: blue;
+    padding: 20px;
+  }
+  .newsttl3{
+    font-size: 22px;
+    font-weight: 600;
+    color: blue;
+    padding: 20px;
+}
+.newsdate1{
+    float: right;
+    padding: 30% 30px;
+}
+.newsdate2{
+    float: right;
+    padding: 13px;
+    margin: 30% 13px;
+}
+.newsdate3{
+    float: right;
+    margin: 33% 28px;
+}
+
+
+footer{
+    margin-top: 5%;
+    background-color:  #e7ebed;
+}
+.footlogo{
+    width: 180px;
+}
+.container{
+    display: flex;
+    max-width: 98%;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.container li{
+    list-style: none;
+}
+.foot1 ul{
+    margin: 0% 30px;
+}
+.foot2{
+    margin: 0% 30px;
+
+}
+.foot3{
+    margin: 0% 30px;
+
+}
+
+.foot4{
+    margin: 0% 30px;
+
+}
+.container li a{
+    color: black;
+    font-size: 17px;
+    line-height: 31px;
+}
+
+.footimg{
+    height:50px ;
+    /* margin: 0px 12px -22px 130px; */
+}
+.foot5{
+width: 25%;
+margin-left: 10%;
+margin-right: 30px;    
+}
+
+.prenews{
+    margin: 53px 29px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.futnewsimg1 img{
+    width: 75px;
+    float: left;
+    margin-right: 15px;
+    height: 66px;
+    
+}    
+.futnewsimg2 img{
+    width: 75px;
+    float: left;
+    margin-right: 15px;
+    height: 66px;
+}    
+.futnewsimg3 img{
+    width: 75px;
+    float: left;
+    margin-right: 15px;
+    height: 66px;
+}    
+.futnewsimg4 img{
+    width: 75px;
+    float: left;
+    margin-right: 15px;
+    height: 66px;
+    margin-top: 10px;
+}    
+.futnewsimg5 img{
+    width: 75px;
+    float: left;
+    margin-right: 15px;
+    height: 66px;
+}    
+.futnewsdate1{
+    width: 90%;
+    margin: 0px 32%;
+    margin-top: -6%;
+    font-size: 14px;
+}    
+.futnewsdate2{
+    width: 90%;
+    margin: 0px 32%;
+    margin-top: -6%;
+    font-size: 14px;
+}    
+.futnewsdate3{
+    width: 90%;
+    margin: 0px 32%;
+    margin-top: -6%;
+    font-size: 14px;
+}    
+.futnewsdate4{
+    width: 90%;
+    margin: 0px 32%;
+    margin-top: -6%;
+    font-size: 14px;
+}    
+.futnewsdate5{
+    width: 90%;
+    margin: 0px 32%;
+    margin-top: -6%;
+    font-size: 14px;
+}
+.gonaflex{
+    display: flex;
+    align-items: center;
+    /* width: 75%; */
+    justify-content: center;
+    height: 73px;
+    width: 63%;
+    margin: -5% 0px 0px 0px;
+}    
+.mail input{
+    padding: 12px;
+    width: 100%;
+    background-color: #bfc6cb;
+    color: #fff;
+    border-radius: 8px;
+    border-style: none;
+}
+.submit{
+    background-color: #245da6;
+    padding: 12px;
+    margin-left: 35px;
+    color: white;
+}
+.submitbtn button{
+    border-radius: 8px;
+    border-style: none;
+}
+.googleplay img{
+    width: 70%;
+    padding-left: 110px;
+}
+.applestore{
+    margin-left: 55px;
+}
+.handelslink ul{
+    list-style: none;
+}
+.containerbottom{
+    
+    display: flex;
+    justify-content: center;
+margin-top: 45px;
+}
+
+.handelslink ul{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* margin-left: 58%; */
+    /* width: 90%; */
+}
+.handelslink ul li{
+    width: 50px;
+}
+.copyryt{
+    font-size: 17px;
+    font-family: sans-serif;
+    margin-top: 23px;
+
+}
+
+.love{
+    font-size: 17px;
+    font-family: sans-serif;
+    margin-top: 23px;
+    padding: 12%;
+    margin-top: -10.5%;
+}
+.footerbottom{
+    background-color: #bfc6cb;
+    height: 90px;
+}
+.handelslink{
+    margin-top: 23px;
+}
+.cards div p img{
+    height: 11px;
+padding-right: 10px;
+}
+.cryptsrch div i{
+margin-left: -120%; }
+
+  /*-------------------------------------- MEDIA QUERY--------------------------------- */
+  @media only screen and (max-width: 1440px){
+    .newsimg1{
+    width: 343px;}
+        body{
+            max-width: 99%;
+        }  
+  }
+  @media only screen and (max-width: 1321px){
+  .newsimg1 {
+      width: -webkit-fill-available;
+  }
+  .foot5 {
+    width: 23%;
+    margin-left: 7%;}
+}
+
+  @media only screen and (max-width: 1024px){
+      .coindtl{
+          width: 100%;
+      }
+      .bgcolor{width: 1058px;}
+      body{
+          padding: 0;
+          margin: 0;
+      }
+      .newsdate1 {
+        padding: 37% 30px;}
+        
+      .newsdate2{
+        margin: 28% 13px;
+      }
+      
+
+    .maindiv h4{
+        font-size: 14px;
+    }
+    .card1 p .coinlogo{
+        height: 25px;
+    }
+    .card2 p .coinlogo{
+        height: 25px;
+    }.card3 p .coinlogo{
+        height: 25px;
+    }.card4 p .coinlogo{
+        height: 25px;
+    }.card5 p .coinlogo{
+        height: 25px;
+    }.card6 p .coinlogo{
+        height: 25px;
+    }
+    .news1{
+    width: 25%; height: 420px;}
+    .news2{
+    width: 25%; height: 420px;}
+    .news3{
+    width: 25%; height: 420px;}
+    .newsimg1{
+        width: 261px;}
+    footer{
+         width: 1058px;
+         margin-left: -8px;
+        }
+    .container{
+        max-width: 96%;
+    }
+    .foot5{
+            width: 35%;
+            margin-left: -1%;
+            margin-right: 10px}
+    .futnewsdate1,.futnewsdate2,.futnewsdate3,.futnewsdate4,.futnewsdate5{
+        width: 88%;
+    }
+    .copyryt p{
+        margin-left: 15px;
+    }
+    }    
+  @media only screen and (max-width: 768px){
+    .newssection{width: 140%;}
+    .newsimg1{
+        width: 100%;}
+        .news1,.news2,.news3{
+            height: 400px;
+        }
+    .newsdate2{
+    margin: 10% 13px;}
+    .newsdate1 {
+    padding: 11% 30px;}
+    .newsdate3 {
+    margin: 14% 28px;}
+    .topview{
+    width: 140%;}
+    .prevandnxtbtn {
+    margin-left: 58%;}
+    table {
+    width: 120%;}
+    .cryptsrch,.cards,header,.bgcolor{
+    width: 140%;}
+    footer {
+        width: 141%;
+        margin-left: -10px;}
+    .foot5{width: 20%; margin-left: 8%;}
+    .container {margin-inline: 5%;}
+                       
+    }
+  @media only screen and (max-width: 425px){
+    .footerbottom {
+        justify-content: center;
+        align-items: center;
+        height: 450px;
+    }
+    .containerbottom{
+        flex-direction: column;
+        height: 450px;
+        margin-top: 0px;
+    align-items: center;}
+    .copyryt {
+        font-size: 55px;
+    margin-top: 0px;}
+    .love {
+        font-size: 55px;
+        margin-top: 0px;
+        padding: 0px;
+    }
+    .handelslink{
+        margin-top: -25px;
+        bottom: 10px;
+    }
+    .handelslink ul li {
+        font-size: 80px;
+        margin: 30px;}
+        .container{
+            flex-wrap: wrap;
+        }
+    .foot1,.foot2,.foot3,.foot4,.foot5{
+        width: 40%;}
+    .container li a {
+            font-size: 44px;
+            line-height: 110px;
+        }
+        .foot5{
+            width: 53%;
+        }
+        .futnews p{
+        font-size: 40px;
+        }
+        .futnews img{
+            width: 150px;
+            height: 150px;
+        }
+         .futnewsdate1,.futnewsdate2,.futnewsdate3,.futnewsdate4,.futnewsdate5 {
+            margin: 0px 24%;
+            margin-top: -7%;
+        }
+        .newsttl h4{
+            font-size: 45px;
+        }
+        .gonaflex{
+            margin-top: 16%;
+            width: 100%;
+        }
+        .mail input {
+            padding: 40px;
+            width: 92%;
+        font-size: 50px;}
+        .submit i{
+            font-size: 50px;
+        }
+        .submit {
+            padding: 40px;
+            margin-left: 60%;
+        }
+        .mailfooter{
+            height: 165vh;
+        }
+        .gonaflex{
+position: relative;
+height: 200vh;}
+.submitbtn{
+position: absolute;
+width: 100%;
+margin-top: -134px;
+margin-bottom: 36%;
+}
+.mail{margin-bottom: 45%;
+position: absolute;
+margin-right: 29%;
+width: 36%;}
+.googleplay{
+width: 50%;
+margin-left: 50%;
+position: absolute;
+
+}
+.applestore{
+width: 70%;
+margin-left: 55px;
+position: absolute;}
+.applestore img{width: 45%;}
+.coindtl .coindtlhide{
+opacity: 0;
+visibility: hidden;
+width: 0px;
+}
+.coindtlhide h4{
+font-size: 0px;
+}
+.coindtlunhide h4{
+font-size: 44px;
+}
+.maindiv{
+justify-content: center;width: 100%;}
+.top{
+font-size: 70px;
+}
+.viewbtn{
+font-size: 45px;
+padding: 26px 36px;}
+.cardhide{
+opacity: 0;
+visibility: hidden;
+}
+.cards div{
+    margin-inline: 11px;
+}
+.cards .card3{width: 0%;}
+.cards .card4{width: 0%;}
+.cards .card5{width: 0%;}
+.cards .card6{width: 0%;}
+
+.cards .card1{width: 30%;}
+.cards .card2{width: 30%;}
+
+.cards .card1{font-size: 70px;
+height: 55vh;
+padding: 25px;}
+.cards .card2{font-size: 70px;
+    height: 55vh;
+    padding: 25px;}
+    .cards .card1 p{font-size: 44px;}
+    .cards .card2 p{font-size: 44px;}
+  body{overflow-x : hidden;}
+  .news2,.news3{
+      opacity: 0;
+      visibility: hidden;
+      width: 0%;}
+      .newsttl1 {
+        font-size: 63px;}
+        .news1{
+            height: 965px;
+            margin-top: 60px;
+            width: 71%;}
+            .newsdate1{
+                padding: 0% 30px;
+                font-size: 60px;
+            }
+            .cards div p .arrow{
+                height: 50px;
+    padding-right: 10px;
+            }
+            .cards div p .coinlogo{
+                height: 74px;
+            }
+            .crypt{
+                font-size: 80px;
+    margin-right: 4%;
+            }
+            .srchusd{
+                width: 25%;
+                margin-left: 13%;
+            }
+            .srch{
+                padding: 22px;
+                font-size: 60px;
+            }
+            .usd{
+                padding: 25px;
+                font-size: 53px;
+                margin-right: -75px;
+            }
+            .cryptsrch div i{
+                margin-left: -120%; }
+
+        .tablehide{
+            opacity: 0;
+            visibility: hidden;
+            width: 0%;
+            display: none;
+        }
+        table {
+            width: 130%;
+            margin-left: 10%;
+            font-size: 47px;}
+            tbody td img{
+           width: 50px;
+        }
+        .prevandnxtbtn{
+            margin-left: 35%;
+        }
+        .prevbtn{
+            font-size: 60px;
+        }
+        .nxtbtn{
+            font-size: 60px;
+        }
+        nav .logo img{
+            width: 200%;
+            margin: 30px 20px 30px 30px;
+        }
+         label{
+            display: block;
+            font-size: 80px;
+            border: solid 1px;
+            padding: 10px 30px;
+            margin: 71px 130px;
+        }
+        /* .navlist{
+            position: fixed;
+            top: 271px;
+            left: 0px;
+            height: 300vh;
+            width: 100%;
+            background: white;
+            display: none;
+            transition: all 0.4s ease !important;
+        } */
+
+        .navlist {
+            position: relative;
+            top: 83px;
+            right: 255%;
+            height: 270vh;
+            width: 356%;
+            background: white;
+            display: none;
+            transition: }
+        .navlist li{
+            margin: 44px 0px;
+            font-size: 55px;
+            display: block;
+        }
+        nav i{
+            display: block;
+        }
+        .Hbtn{
+            font-size: 42px;
+        }
+        #open-menu:checked ~ .navlist{
+            display: block;}
+            
+
+
+
+
+
+            .navlist .homebtn{
+                background: linear-gradient(to right,#1c60b8 1%,#3c99dd 100%);
+            }
+
+
+
+
+
+
+            .container li a {
+                font-size: 55px;}
+            .foot5 {
+                width: 65%;
+            }
+            .futnews p {
+                font-size: 55px;
+            }
+            .futnews .futnews1 img{
+                width: 245px;
+                height: 248px;
+            }
+            .futnews .futnews2 img{
+                width: 245px;
+                height: 248px;
+            }.futnews .futnews3 img{
+                width: 245px;
+                height: 220px;
+            }.futnews .futnews4 img{
+                width: 245px;
+                height: 248px;
+            }.futnews .futnews5 img{
+                width: 245px;
+                height: 210px;
+            }
+        }
+
+        
+        
+
+
+
+        /* .foot5 .newsttl h4{
+            font-size: 85px;
+        }
+        .foot5 {
+            width: 87%;
+        }
+        .foot4 {
+            margin: 5% 30px;
+        }
+        .container .foot1{
+            margin-top: 7%;
+        }
+        .footerbottom{
+            height: 500px;
+        }
+        .containerbottom{
+            height: 500px;
+        }
+        .copyryt {
+            font-size: 65px;}
+    
+        .love {
+        font-size: 65px;}
+    
+        .handelslink ul li {
+            font-size: 90px;}
+    
+        .futnews img {
+            width: 370px;
+            height: 370px;
+        }
+        .futnews3 .futnewsimg3 img{
+            height: 260px;
+        }
+        .futnews5 .futnewsimg5 img{
+            height: 300px;
+        }
+        .futnews p {
+            font-size: 70px;
+        }
+        .futnews div{
+            margin: 22px 0px;
+        }
+        .container li a {
+            font-size: 64px;}
+     */
+       
+
+/* 
+@media only screen and (max-width: 375px){
+ body{ max-width: 84%;}
+ table{
+     font-size: 60px;
+     margin-top: 80px;
+ }
+ .topview{
+     padding-top: 80px;
+ }
+ .cards{
+     margin-top: 90px;
+ }
+ .cryptsrch{
+     display: block;
+ }
+ .crypt{
+     width: 100%;
+     text-align: center;
+ }
+ .srchusd{
+     width: 50%;
+     margin-left: 27%;
+ }
+ table tbody tr{
+     margin: 44px 2px;
+ }
+} */
+
+
+
+
+
+ /* .foot5 .newsttl h4{
+    font-size: 85px;
+}
+.foot5 {
+    width: 87%;
+}
+.foot4 {
+    margin: 5% 30px;
+}
+.container .foot1{
+    margin-top: 7%;
+}
+.footerbottom{
+    height: 500px;
+}
+.containerbottom{
+    height: 500px;
+}
+.copyryt {
+    font-size: 65px;}
+
+.love {
+font-size: 65px;}
+
+.handelslink ul li {
+    font-size: 90px;}
+
+.futnews img {
+    width: 370px;
+    height: 370px;
+}
+.futnews3 .futnewsimg3 img{
+    height: 260px;
+}
+.futnews5 .futnewsimg5 img{
+    height: 300px;
+}
+.futnews p {
+    font-size: 70px;
+}
+.futnews div{
+    margin: 22px 0px;
+}
+.container li a {
+    font-size: 64px;}
+
+}
+
+@media only screen and (max-width: 320px){
+    .foot5 .newsttl h4{
+        font-size: 85px;
+    }
+    .foot5 {
+        width: 87%;
+    }
+    .foot4 {
+        margin: 5% 30px;
+    }
+    .container .foot1{
+        margin-top: 7%;
+    }
+    .footerbottom{
+        height: 500px;
+    }
+    .containerbottom{
+        height: 500px;
+    }
+    .copyryt {
+        font-size: 65px;}
+
+    .love {
+    font-size: 65px;}
+
+    .handelslink ul li {
+        font-size: 90px;}
+
+    .futnews img {
+        width: 370px;
+        height: 370px;
+    }
+    .futnews3 .futnewsimg3 img{
+        height: 260px;
+    }
+    .futnews5 .futnewsimg5 img{
+        height: 300px;
+    }
+    .futnews p {
+        font-size: 70px;
+    }
+    .futnews div{
+        margin: 22px 0px;
+    }
+    .container li a {
+        font-size: 64px;}
+
+} */
+
+  
+@media only screen and (max-width: 320px){
+
+    nav .logo img {
+        width: 175%;
+        margin: 53px 20px 30px 30px;
+    }
+
+    .navlist {
+        right: 165%;
+        width: 266%;
+    }
+    label{
+        display: block;
+        font-size: 80px;
+        border: solid 1px;
+        padding: 10px 30px;
+        margin: 0px 0px;
+    }
+    
+    
+
+
+
+    body{overflow-x: visible;
+    max-width: 68%;}
+    header{width: 147%;}
+    .bgcolor{width: 148%;}
+    .topview{width: 147%;}
+    .cards{width: 147%;}
+    .card3,.card4,.card5,.card6{
+        display: none;
+    }
+    
+    .cards .card1{
+        width: 37%;
+    }
+    .cards .card2{
+        width: 37%;
+    }
+
+    .cryptsrch{display: block;}
+
+    .crypt {
+        width: 105%;
+    text-align: center;}
+
+    .srchusd {
+        width: 50%;
+        margin-left: 29%;
+    }
+    table{margin-top: 80px;
+    width: 137%;}
+
+    .prevandnxtbtn {
+        margin-left: 25%;
+        margin-top: 80px;
+    }
+    .news1{
+        width: 90%;
+        margin-right: 0;
+        margin-left: 55px;
+    }
+    .news2{
+        display: none;
+    }
+    .news3{
+        display: none;}
+
+    .foot5 {
+        width: 100%;
+   }
+   
+   .futnews .futnews2 img {
+    width: 245px;
+    height: 260px;
+}
+
+.submitbtn{
+    margin-bottom: 32%;
+}
+
+.futnewsdate1, .futnewsdate2, .futnewsdate3, .futnewsdate4, .futnewsdate5{
+    width: 83%;
+}
+footer {
+    width: 148%;}
+
+    .nav2 {
+        margin: auto;
+        margin-right: 45px;
+    }
+}
+
+    

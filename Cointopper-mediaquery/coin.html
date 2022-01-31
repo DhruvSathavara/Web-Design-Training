@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="coin.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav1">
+                <!-- <i class="fas fa-search"></i> -->
+
+
+                <div class="logo"><img src="https://cointopper.com/images/logo.jpg"></div>
+            </div>
+            <div class="nav2">
+                <input type="checkbox" id="open-menu">
+                <label for="open-menu" class="menu-btn">
+                    <i class="fa fa-bars"></i>
+                </label>
+                <ul class="navlist">
+                    <li class="homebtn" ><button class="Hbtn">Home</button></li>
+                    <li>About</li>
+                    <li>ICOs</li>
+                    <li>Airdrops</li>
+                    <li>News</li>
+                    <li>Guids</li>
+                    <li>Hire Experts</li>
+                    <li>Login</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- "coin-detail-top "--------------- -->
+    <div class="bgcolor">
+        <section class="coindtl">
+            <div class="maindiv">
+                <div class="coindtlunhide" >
+                    <h4>BTC/USD<br>$46991.29</h4>
+                </div>
+                <div class="coindtlunhide" >
+                    <h4>Cryptocurrencie<br>1554</h4>
+                </div>
+                <div  class="coindtlunhide" >
+                    <h4>24h volume<br>$137.7 B</h4>
+                </div>
+                <div class="coindtlhide" >
+                    <h4>AltCoin M.Cap<br>$-619,908,579,478</h4>
+                </div>
+                <div class="coindtlhide" >
+                    <h4>Total M.Cap<br>$267 B</h4>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="topview">
+        <div class="top">Top Viewed</div>
+        <div class="view">
+            <button class="viewbtn">View All</button>
+        </div>
+    </section>
+    <section class="cards">
+        <div class="card1 cardunhide ">
+            <h5 class="c1name">Bitcoin</h5>
+            <p class="c1mcap">$9,120.78</p>
+            <!-- <i class="coin-topp-down"></i> -->
+            <p class="c1up">
+
+                <img class="arrow" src="https://cointopper.com/images/up_arrow.png">9.62%
+
+                <span> <img class="coinlogo" src="https://cointopper.com/images/thumb/digitalcash-dash.png" alt=""></span>
+            </p>
+        </div>
+        <div class="card2 cardunhide ">
+            <h5 class="c1name">Cardano</h5>
+            <p class="c1mcap">$9,120.78</p>
+            <p class="c1up">
+                <img class="arrow" src="https://cointopper.com/images/up_arrow.png">9.62%
+                <span><img class="coinlogo" src="	https://cointopper.com/images/thumb/cardano-ada.png" alt=""></span>
+            </p>
+        </div>
+        <div class="card3 cardhide ">
+            <h5 class="c1name">EOS</h5>
+            <p class="c1mcap">$9,120.78</p>
+            <p class="c1up">
+                <img style="height:11px; padding-right: 10px;" src="https://cointopper.com/images/up_arrow.png">9.62%
+                <span><img class="coinlogo" src="	https://cointopper.com/images/thumb/nem-xem.png" alt=""></span>
+            </p>
+        </div>
+        <div class="card4 cardhide ">
+            <h5 class="c1name">Bitcoin cash</h5>
+            <p class="c1mcap">$9,120.78</p>
+            <p class="c1up">
+                <img style="height:11px; padding-right: 10px;" src="https://cointopper.com/images/up_arrow.png">9.62%
+                <span><img class="coinlogo" src="https://cointopper.com/images/thumb/tezos-xtz.png" alt=""></span>
+            </p>
+        </div>
+        <div class="card5 cardhide ">
+            <h5 class="c1name">Chain link</h5>
+            <p class="c1mcap">$9,120.78</p>
+            <p class="c1up">
+                <img style="height:11px; padding-right: 10px;" src="https://cointopper.com/images/up_arrow.png">9.62%
+                <span><img class="coinlogo" src="	https://cointopper.com/images/thumb/waves-waves.png" alt=""></span>
+
+            </p>
+        </div>
+        <div class="card6 cardhide ">
+            <h5 class="c1name">Ripple</h5>
+            <p class="c1mcap">$9,120.78</p>
+            <p class="c1up">
+                <img style="height:11px; padding-right: 10px;" src="https://cointopper.com/images/up_arrow.png">9.62%
+                <span><img class="coinlogo" src="	https://cointopper.com/images/thumb/tether-usdt.png" alt=""></span>
+            </p>
+        </div>
+
+    </section>
+    <section class="cryptsrch">
+        <p class="crypt">Cryptocurrencies</p>
+        <div class="srchusd">
+            <!-- <span style="font-size:35px; color: rgb(22, 20, 19);"> -->
+            <!-- </span> -->
+            <input type="text" class="srch" placeholder="Search coin">
+            <i style= "color: white;" class="fa fa-search"></i>
+            <button class="usd">USD</button>
+        </div>
+    </section>
+    <table>
+        <thead class="tablehead">
+            <tr class="tr1">
+                <th>#</th>
+                <th></th>
+                <th>NAME</th>
+                <th>CHANGE</th>
+                <th>PRICE</th>
+                <th class="tablehide" >24HR CHANGE</th>
+                <th class="tablehide" >GRAPH(7DAYS)</th>
+                <th class="tablehide">COINS</th>
+                <th class="tablehide">MARKET CAP</th>
+
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td> <img src="https://cointopper.com/images/thumb/bitcoin-btc.png">
+                </td>
+                <td>Bitcoin<br>BTC</td>
+                <td> <img class="upanddown"
+                        src="file:///C:/Users/Nexus/AppData/Local/Temp/Rar$EXa0.396/coin-topper-demo-master/up_arrow_green.png"
+                        alt="" /> 4.46%</td>
+                <td>$9,120.78<br>1.0000000</td>
+                <td class="tablehide" ><img class="upanddown"
+                        src="	file:///C:/Users/Nexus/AppData/Local/Temp/Rar$EXa0.396/coin-topper-demo-master/up_arrow_green.png"
+                        alt="">$10967<br><img class="upanddown"
+                        src="	file:///C:/Users/Nexus/Desktop/coin-topper/down_arrow_red.png" alt="">$10538</td>
+                <td class="tablehide" ><img src="image/graph.png" alt=""></td>
+                <td class="tablehide" >18.25M</td>
+                <td class="tablehide" >$684.47 B</td>
+            </tr>
+            
+            <tr>
+                <td>2</td>
+                <td><img src="	https://cointopper.com/images/thumb/ethereum-eth.png" alt=""></td>
+                <td>Ethereum <br>
+                    ETH</td>
+                <td><img class="upanddown"
+                        src="file:///C:/Users/Nexus/AppData/Local/Temp/Rar$EXa0.396/coin-topper-demo-master/up_arrow_green.png"
+                        alt="">3.98%</td>
+                <td>$9,120.78<br>
+                    0.025316300</td>
+                <td class="tablehide" ><img class="upanddown"
+                        src="	file:///C:/Users/Nexus/AppData/Local/Temp/Rar$EXa0.396/coin-topper-demo-master/up_arrow_green.png"
+                        alt="">$10967<br><img class="upanddown"
+                        src="	file:///C:/Users/Nexus/Desktop/coin-topper/down_arrow_red.png" alt="">$10538</td>
+                <td class="tablehide" ><img src="image/graph.png" alt=""></td>
+                <td class="tablehide" >18.25M</td>
+                <td class="tablehide" >$684.47 B</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><img src="	https://cointopper.com/images/thumb/binance-coin-bnb.png" alt=""></td>
+                <td>Binance Coin
+                    <br>
+                    BNB
+                </td>
+                <td><img class="upanddown"
+                        src="file:///C:/Users/Nexus/AppData/Local/Temp/Rar$EXa0.396/coin-topper-demo-master/up_arrow_green.png"
+                        alt="">4.24%</td>
+                <td>$9,120.78<br>
+                    0.025316300</td>
+                <td class="tablehide"><img class="upanddown"
+                        src="	file:///C:/Users/Nexus/AppData/Local/Temp/Rar$EXa0.396/coin-topper-demo-master/up_arrow_green.png"
+                        alt="">$10967<br><img class="upanddown"
+                        src="	file:///C:/Users/Nexus/Desktop/coin-topper/down_arrow_red.png" alt="">$10538</td>
+                <td class="tablehide"><img src="image/graph.png" alt=""></td>
+                <td class="tablehide">18.25M</td>
+                <td class="tablehide">$684.47 B</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><img src="	https://cointopper.com/images/thumb/tether-usdt.png" alt=""></td>
+                <td>Ripple
+                    <br>XRP
+                </td>
+                <td><img class="upanddown"
+                        src="file:///C:/Users/Nexus/AppData/Local/Temp/Rar$EXa0.396/coin-topper-demo-master/up_arrow_green.png"
+                        alt="">5.65%</td>
+                <td>$9,120.78<br>
+                    0.025316300</td>
+                <td class="tablehide"><img class="upanddown"
+                        src="	file:///C:/Users/Nexus/AppData/Local/Temp/Rar$EXa0.396/coin-topper-demo-master/up_arrow_green.png"
+                        alt="">$10967<br><img class="upanddown"
+                        src="	file:///C:/Users/Nexus/Desktop/coin-topper/down_arrow_red.png" alt="">$10538</td>
+                <td class="tablehide"><img src="image/graph.png" alt=""></td>
+                <td class="tablehide">18.25M</td>
+                <td class="tablehide">$684.47 B</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><img src="	https://cointopper.com/images/thumb/luna-coin-luna.png" alt=""></td>
+                <td>Luna coin <br>
+                    Luna</td>
+                <td><img class="upanddown"
+                        src="file:///C:/Users/Nexus/AppData/Local/Temp/Rar$EXa0.396/coin-topper-demo-master/up_arrow_green.png"
+                        alt="">3.78%</td>
+                <td>$9,120.78<br>
+                    0.025316300</td>
+                <td class="tablehide"><img class="upanddown"
+                        src="	file:///C:/Users/Nexus/AppData/Local/Temp/Rar$EXa0.396/coin-topper-demo-master/up_arrow_green.png"
+                        alt="">$10967<br><img class="upanddown"
+                        src="	file:///C:/Users/Nexus/Desktop/coin-topper/down_arrow_red.png" alt="">$10538</td>
+                <td class="tablehide"><img src="image/graph.png" alt=""></td>
+                <td class="tablehide">18.25M</td>
+                <td class="tablehide">$684.47 B</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="prevandnxtbtn">
+        <button class="prevbtn"> « Previous</button>
+        <button class="nxtbtn">Next »</button>
+    </div>
+
+    <section class="topview">
+        <div class="top">NEWS</div>
+        <div class="view">
+            <button class="viewbtn">View All</button>
+        </div><br>
+    </section>
+    <section class="newssection">
+        <div class="news1">
+            <img title="News" class="newsimg1"
+                src="https://cointopper.com/uploads/topics/thumb/xrp-is-better-than-btc-says-brad-garlinghouse-the-ceo-of-ripple-labs-15385969066753.jpg"
+                alt="">
+            <div class="newsttl1"><a href="#"> Ripple's XRapid Goes Live XRapid Goes Live XRapid ...</a>
+            </div>
+            <p class="newsdate1">January 2,2022</p>
+        </div>
+        <div class="news2">
+            <img title="News" class="newsimg1"
+                src="https://cointopper.com/uploads/topics/thumb/finally-ripples-xrapid-goes-live-15385976068960.jpg"
+                alt="">
+            <div class="newsttl2"><a href="#"> XRP Is Better Than BTC, Says Brad Garlinghouse, The CEO..</a>
+            </div>
+            <p class="newsdate2">January 2,2022</p>
+        </div>
+
+        <div class="news3">
+            <img title="News" class="newsimg1"
+                src="https://cointopper.com/uploads/topics/thumb/us-federal-court-cryptocurrencies-to-be-treated-as-commodities-15387446239784.jpg"
+                alt="">
+            <div class="newsttl3"><a href="#"> New Google update challanges Cryptojackers Xrapids...</a>
+            </div>
+            <p class="newsdate3">January 2,2022</p>
+        </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-set">
+            <div class="foot1">
+                <img class="footlogo"
+                    src="	file:///C:/Users/Nexus/AppData/Local/Temp/Rar$EXa0.396/coin-topper-demo-master/footer_logo.jpg"
+                    alt="">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Advertise</a></li>
+                    <li><a href="#">Hire Experts</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li style="margin-top: 75px;"><a style="color:#245da6 ;" href="#">Newsletter</a></li>
+
+                </ul>
+            </div>
+            <div class="foot2">
+                <ul>
+                    <li><a style="color: #245da6;" href="#">
+                            <h4>Cryptocurrency</h4>
+                        </a></li>
+                    <li><a href="#">Bitcoin</a></li>
+                    <li><a href="#">Ethereum</a></li>
+                    <li><a href="#">Binance Coin</a></li>
+                    <li><a href="#">Ripple</a></li>
+                    <li><a href="#">Tether</a></li>
+                    <li><a href="#">Submit Coin</a></li>
+                </ul>
+            </div>
+            <div class="foot3">
+                <ul>
+                    <li><a style="color: #245da6;" href="#">
+                            <h4>ICOs</h4>
+                        </a></li>
+                    <li><a href="#">ACA Network
+                        </a></li>
+                    <li><a href="#">AgroTechFarm
+                        </a></li>
+                    <li><a href="#">CRYSTALS Coin</a></li>
+                    <li><a href="#">Coin Analyst</a></li>
+                    <li><a href="#">INGOT COIN</a></li>
+                    <li><a href="#">Submit ICO</a></li>
+                    <li style="margin-top: 60px;"><a style="color:#245da6 ;" href="#">Download</a></li>
+                </ul>
+            </div>
+            <div class="foot4">
+                <ul>
+                    <li><a style="color: #245da6;" href="#">
+                            <h4>Airdrops
+                        </a></li>
+                    <li><a href="#">Tachain</a></li>
+                    <li><a href="#">imusify</a></li>
+                    <li><a href="#">Bidooh </a></li>
+                    <li><a href="#">Spiking</a></li>
+                    <li><a href="#">Efforce</a></li>
+                    <li><a href="#">Submit Airdrop</a></li>
+                </ul>
+            </div>
+
+
+            <div class="foot5">
+                <div class="newsttl">
+                    <h4 style="color: #245da6">Crypto news & updates</h4>
+                </div>
+                <div class="futnews">
+                    <div class="futnews1">
+                        <a
+                            href="https://cointopper.com/news/us-federal-court-cryptocurrencies-to-be-treated-as-commodities">
+                            <div class="futnewsimg1"><img
+                                    src="https://cointopper.com/uploads/topics/us-federal-court-cryptocurrencies-to-be-treated-as-commodities-15387446239784.jpg"
+                                    alt=""></div>
+                            <p>US Federal Court: Cryptocurrencies to be treated as commodit...</p>
+                            <p class="futnewsdate1">January 2,2022</p>
+                        </a>
+                    </div>
+
+                    <div class="futnews2">
+                        <a
+                            href="https://cointopper.com/news/coinbase-gets-an-investment-boost-of-500-million-from-tiger-global-valuation-increases-to-8-billion">
+                            <div class="futnewsimg2"><img
+                                    src="https://cointopper.com/uploads/topics/coinbase-gets-an-investment-boost-of-500-million-from-tiger-global-valuation-increases-to-8-billion-15385981723678.png"
+                                    alt=""></div>
+                            <p>Coinbase Gets an Investment Boost of $500 Million from Tiger...</p>
+                            <p class="futnewsdate2">January 2,2022</p>
+                        </a>
+                    </div>
+
+                    <div class="futnews3">
+                        <a href="https://cointopper.com/news/finally-ripples-xrapid-goes-live">
+                            <div class="futnewsimg3"><img
+                                    src="https://cointopper.com/uploads/topics/finally-ripples-xrapid-goes-live-15385976068960.jpg"
+                                    alt=""></div>
+                            <p>Finally, Ripple's xRapid Goes Live</p>
+                            <p class="futnewsdate3">January 2,2022</p>
+                        </a>
+                    </div>
+
+                    <div class="futnews4">
+                        <a
+                            href="https://cointopper.com/news/xrp-is-better-than-btc-says-brad-garlinghouse-the-ceo-of-ripple-labs">
+                            <div class="futnewsimg4"><img
+                                    src="https://cointopper.com/uploads/topics/xrp-is-better-than-btc-says-brad-garlinghouse-the-ceo-of-ripple-labs-15385969066753.jpg"
+                                    alt=""></div>
+                            <p>XRP is Better Than BTC, says Brad Garlinghouse, the CEO of R...</p>
+                            <p class="futnewsdate4">January 2,2022</p>
+                        </a>
+                    </div>
+
+                    <div class="futnews5">
+                        <a href="https://cointopper.com/news/new-google-update-challenges-cryptojackers">
+                            <div class="futnewsimg5"><img
+                                    src="https://cointopper.com/uploads/topics/new-google-update-challenges-cryptojackers-15385526567561.jpg"
+                                    alt=""></div>
+                            <p>New Google Update Challenges Cryptojackers</p>
+                            <p class="futnewsdate5">January 2,2022</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mailfooter">
+            <div class="gonaflex">
+                <div class="mail"><input type="text" placeholder="Your Email"></div>
+                <div class="submitbtn"><button class="submit">
+                        <i class="fa fa-arrow-right"></i></button></div>
+                <div class="googleplay">
+                    <a href="https://play.google.com/store/apps/details?id=com.cointopper.coinlist">
+                        <img src="https://cointopper.com/images/android_app_icon.png"
+                            alt="">
+                    </a>
+                </div>
+                <div class="applestore">
+                    <a href="https://itunes.apple.com/in/app/cointopper/id1384477178?mt=8">
+                        <img src="https://cointopper.com/images/ios_app_icon.png"
+                            alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footerbottom">
+            <div class="containerbottom">
+                <div class="copyryt">
+                    <p>© Copyright 2018. All Rights Reserved.</p>
+                </div>
+                <div class="love">
+                    <p>Made with <i style="color: red;" class="fa fa-heart"></i> for the Decentralized World</p>
+                </div>
+                <div class="handelslink">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-telegram"></i></a></li>
+                        <li class="lastli" ><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
