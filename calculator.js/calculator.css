@@ -1,0 +1,16 @@
+button{
+    padding: 5px 12px;
+    margin: 4px 7px;
+    border-radius: 7px;
+    font-size: 23px;
+}
+input{
+    font-size: 15px;
+    margin: 10px 0px;
+    padding: 10px 10px;
+}
+div{
+    background-color: aqua;
+    width: 18%;
+    height: 42vh;
+}
