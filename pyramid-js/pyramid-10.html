@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+</head>
+
+<body>
+    <script>
+
+
+    let size = 10;
+    StartPrint(size);
+
+
+        function StartPrint(size) {
+           
+
+            let row = 0;
+            let col = 0;
+
+            let boundary = size - 1;
+            let ExtendBoundary = size - 1;
+            let flag = 1;
+
+            let move = "right";
+            // ------  up, down, left, right
+
+            let Ary = new Array(size);
+            // console.log(a);
+
+            for (let i = 0; i < size; i++) {
+                Ary[i] = new Array(size);
+            }
+            for (let i = 1; i < (size * size) + 1; i++) {
+                Ary[row][col] = i;
+
+                switch (move) {
+                    case "right":
+                        col += 1;
+                        break;
+
+                    case "left":
+                        col -= 1;
+                        break;
+
+                    case "down":
+                        row += 1;
+                        break;
+
+                    case "up":
+                        row -= 1;
+                        break;
+                }
+
+                if (i == boundary) {
+
+                    boundary += ExtendBoundary;
+
+
+                    if (flag == 2) {
+                        flag = 1;
+                        ExtendBoundary -= 1;
+                    } else {
+                        flag = 2;
+                    }
+
+                    switch (move) {
+                        case "right":
+                            move = "down";
+                            break;
+
+                        case "left":
+                            move = "up";
+                            break;
+
+                        case "up":
+                            move = "right";
+                            break;
+
+                        case "down":
+                            move = "left";
+                            break;
+                    }
+                }
+            }
+
+            for (let row = 0; row < size; row++) {
+                for (let col = 0; col < size; col++) {
+                    let n = Ary[row][col];
+                    if (n < 10) {
+                        document.write(n + " " + "&nbsp ");
+                    } else if (n == 100) {
+                        document.write(n);
+                    }
+                    else {
+                        document.write(n + " ");
+                    }
+                }
+                document.write("<br>");
+            }
+
+        }
+
+
+
+    </script>
+</body>
+
+</html>

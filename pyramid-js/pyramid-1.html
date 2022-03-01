@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+<script>
+                 // -----------------Method 1
+
+
+// let col = 5;
+// for (let i = 1; i <= col; i++) {
+//     for (let j = 1; j <= i; j++) {
+//         document.write("* ");
+//     }
+//     document.write("<br>");
+// }
+// for (let i = col - 1; i >= 1; i--) {
+//     for (let j = 1; j <= i; j++) {
+//         document.write("* ");
+//     }
+//     document.write("<br>");
+// }    
+
+               // ---------------- Method 2
+
+let n=5;
+for(let row=1;row<=(n*2-1);row++){
+    let colsInRow = row > n ? n * 2 - row : row;
+    for(let col=1;col<=colsInRow;col++){
+        document.write("* ");
+    }
+    document.write("<br>");
+}
+</script>
+</body>
+</html>
